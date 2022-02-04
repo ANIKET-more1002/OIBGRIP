@@ -1,0 +1,120 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    /*Default Css*/
+    
+    * {
+        font-family: 'Lato', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: black;
+    }
+    
+    .quotes-container {
+        margin: 5% 10%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .picture-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    h2 {
+        color: white;
+        font-weight: bold;
+    }
+    
+    #date {
+        margin: 1% 10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .date-container {
+        font-size: 20px;
+        color: white;
+        font-style: oblique;
+    }
+    
+    #bio {
+        display: flex;
+        justify-content: center;
+        margin: 5% 15%;
+    }
+    
+    .info-para-container {
+        color: white;
+        line-height: 2;
+        padding: 10px 10px;
+    }
+    
+    p {
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+    
+    #awards {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        margin: 5% 0;
+    }
+    
+    table {
+        border-collapse: collapse;
+        color: white;
+        font-size: 24px;
+    }
+    
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    @media(max-width:1000px) {
+        .quotes-container {
+            padding: 0;
+            left: 0;
+            width: 100%;
+            margin: 2% 3%;
+        }
+        .picture-container {
+            padding: 0;
+            left: 0;
+            width: 100%;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 18px;
+        }
+        table {
+            font-size: 20px;
+            padding: 4px;
+        }
+    }
+    
+    @media(max-width:480px) {
+        .quotes-container {
+            margin: 0 5%;
+            font-size: small;
+        }
+        .picture-container {
+            margin: 5% 0;
+            padding: 0;
+            left: 0;
+            width: 100%;
+        }
+        .lamp {
+            display: none;
+        }
+        .date-container {
+            font-size: 18px;
+        }
+    }
